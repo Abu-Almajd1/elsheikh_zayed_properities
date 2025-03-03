@@ -73,14 +73,13 @@ services:
     image: ghcr.io/dbt-labs/dbt-postgres:1.9.latest
     container_name: dbt_container
     volumes:
-      - ./dbt:/usr/app
-      - ~/.dbt:/root/.dbt
+      - "C:/Users/LOQ/Desktop/data_engineering/elshaikh_zayed_properities/dbt:/usr/app"
     working_dir: /usr/app
     environment:
-      - DBT_PROFILES_DIR=/usr/app/profiles
+      - DBT_PROFILES_DIR=/usr/app
     depends_on:
       - postgres  
-    entrypoint: ["tail", "-f", "/dev/null"]  
+    entrypoint: ["tail", "-f", "/dev/null"]
 
 volumes:
   postgres_data:  
