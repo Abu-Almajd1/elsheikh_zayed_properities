@@ -2,7 +2,7 @@
 
 This project is an end-to-end data engineering pipeline designed to collect, process, and analyze property listings from **Property Finder**, **Bayut**, and **Dubizzle**, focusing on **El Sheikh Zayed City** in Egypt. It aims to deliver accurate real estate price predictions and valuable insights using modern data stack technologies.
 
-![ETL Pipeline Architecture](ETL-Page-2.drawio.jpeg)
+![ETL Pipeline Architecture](ETL-Page-2.drawio.png)
 
 ---
 
