@@ -39,5 +39,3 @@ This project is an end-to-end data engineering pipeline designed to collect, pro
 - **Fully containerized**: Portable and reproducible using Docker.
 
 ---
-
-## 🔍 Project Structure
